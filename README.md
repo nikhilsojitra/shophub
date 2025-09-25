@@ -107,13 +107,13 @@ cp .env.example .env
 
 3. Update the `.env` file with your database credentials:
 ```env
-DATABASE_URL="mysql://username:password@localhost:3306/online_shop"
+DATABASE_URL="mysql://root:nikhil@123@localhost:3306/online_shop"
 JWT_SECRET="your-super-secret-jwt-key-here"
 JWT_EXPIRES_IN="7d"
-STRIPE_SECRET_KEY="sk_test_your_stripe_secret_key"
-STRIPE_PUBLISHABLE_KEY="pk_test_your_stripe_publishable_key"
+STRIPE_SECRET_KEY="sk_test_51S91GDKo3lVNOZrPaKx3RdABTUtvd308zM4OLXsewFJhRMUJCOo4whHiNa7UMCkQjXTsU9ISFkCZS33RUebn8qHR00RtBiMNqw"
+STRIPE_PUBLISHABLE_KEY="pk_test_51S91GDKo3lVNOZrPiQm7AoFjv3USemuLELeJT2rsduFLKSxeHxHpQDwYGiHKNcUgAKMa5YkJYNmKXSMBp4BKteDh00zgqIw5kJ"
 STRIPE_WEBHOOK_SECRET="whsec_your_webhook_secret"
-PORT=5000
+PORT=5003
 NODE_ENV=development
 FRONTEND_URL="http://localhost:3000"
 ```
@@ -170,7 +170,7 @@ npm run dev
 
 The application will be available at:
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- Backend API: http://localhost:5003
 
 ### Production Mode
 
