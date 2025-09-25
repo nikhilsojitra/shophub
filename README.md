@@ -177,7 +177,7 @@ npm run dev-all
 The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5003
-- Admin-panel: http://localhost:3001
+- Admin-panel: http://localhost:3001/login
 
 ### Production Mode
 
