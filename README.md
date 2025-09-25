@@ -359,4 +359,4 @@ If you encounter any issues:
 
 ---
 
-**Happy Shopping! **
+**Happy Shopping!**
