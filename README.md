@@ -163,14 +163,21 @@ cd frontend
 npm start
 ```
 
-3. Or run both simultaneously from the root:
+3.Start the Admin dashboard server:
 ```bash
-npm run dev
+cd admin-panel
+npm start
+```
+
+4. Or run All simultaneously from the root:
+```bash
+npm run dev-all
 ```
 
 The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5003
+- Admin-panel: http://localhost:3001
 
 ### Production Mode
 
