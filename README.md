@@ -2,7 +2,7 @@
 
 A complete e-commerce platform built with React, Node.js, Express, MySQL, and Stripe for payments.
 
-## 🚀 Features
+##  Features
 
 ### Authentication & Authorization
 - JWT-based authentication
@@ -40,7 +40,7 @@ A complete e-commerce platform built with React, Node.js, Express, MySQL, and St
 - TailwindCSS for styling
 - Fully responsive across all devices
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** - UI framework
@@ -61,14 +61,14 @@ A complete e-commerce platform built with React, Node.js, Express, MySQL, and St
 - **Bcrypt** - Password hashing
 - **Helmet** - Security
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v16 or higher)
 - MySQL (v8 or higher)
 - Stripe account for payments
 - Git
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -147,7 +147,7 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
    - Run `stripe listen --forward-to localhost:5000/api/payments/webhook`
    - Copy the webhook secret to your `.env` file
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Development Mode
 
@@ -186,7 +186,7 @@ cd backend
 npm start
 ```
 
-## 👥 Default Users
+## Default Users
 
 For testing purposes, you can create these demo accounts:
 
@@ -200,7 +200,7 @@ For testing purposes, you can create these demo accounts:
 - Password: 123456
 - Role: USER
 
-## 🧪 Testing Payments
+## Testing Payments
 
 Use Stripe's test card numbers:
 
@@ -210,7 +210,7 @@ Use Stripe's test card numbers:
 
 Use any future date for expiry and any 3-digit CVC.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 online-shop/
@@ -251,7 +251,7 @@ online-shop/
 └── README.md
 ```
 
-## 🔐 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -286,7 +286,7 @@ online-shop/
 - `PUT /api/admin/orders/:id/status` - Update order status
 - `DELETE /api/admin/users/:id` - Delete user
 
-## 🔒 Security Features
+##  Security Features
 
 - JWT token authentication
 - Password hashing with bcrypt
@@ -296,7 +296,7 @@ online-shop/
 - Input validation
 - SQL injection prevention (Prisma ORM)
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - Modern, clean design
 - Responsive layout
@@ -306,7 +306,7 @@ online-shop/
 - Smooth animations
 - Accessible components
 
-## 📱 Mobile Responsiveness
+##  Mobile Responsiveness
 
 The application is fully responsive and optimized for:
 - Mobile phones (320px+)
@@ -314,7 +314,7 @@ The application is fully responsive and optimized for:
 - Desktops (1024px+)
 - Large screens (1280px+)
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment
 1. Set up a MySQL database on your hosting provider
@@ -327,7 +327,7 @@ The application is fully responsive and optimized for:
 2. Deploy to platforms like Netlify, Vercel, or AWS S3
 3. Update API URLs for production
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -335,11 +335,11 @@ The application is fully responsive and optimized for:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##License
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
+##  Support
 
 If you encounter any issues:
 
@@ -349,7 +349,7 @@ If you encounter any issues:
 4. Check that all dependencies are installed
 5. Verify Stripe keys are valid and in test mode
 
-## 🔄 Updates & Maintenance
+## Updates & Maintenance
 
 - Regularly update dependencies
 - Monitor Stripe API changes
@@ -359,4 +359,4 @@ If you encounter any issues:
 
 ---
 
-**Happy Shopping! 🛒**
+**Happy Shopping! **
