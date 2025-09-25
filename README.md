@@ -335,10 +335,6 @@ The application is fully responsive and optimized for:
 4. Add tests if applicable
 5. Submit a pull request
 
-##License
-
-This project is licensed under the MIT License.
-
 ##  Support
 
 If you encounter any issues:
