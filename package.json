@@ -1,0 +1,21 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "description": "Full-stack online shop application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev-admin": "concurrently \"npm run server\" \"npm run admin\"",
+    "dev-all": "concurrently \"npm run server\" \"npm run client\" \"npm run admin\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "admin": "cd admin-panel && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../admin-panel && npm install"
+  },
+  "keywords": ["ecommerce", "online-shop", "react", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
