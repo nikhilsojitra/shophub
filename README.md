@@ -107,7 +107,7 @@ cp .env.example .env
 
 3. Update the `.env` file with your database credentials:
 ```env
-DATABASE_URL="mysql://root:nikhil@123@localhost:3306/online_shop"
+DATABASE_URL="mysql://username:password@localhost:3306/online_shop"
 JWT_SECRET="your-super-secret-jwt-key-here"
 JWT_EXPIRES_IN="7d"
 STRIPE_SECRET_KEY="sk_test_51S91GDKo3lVNOZrPaKx3RdABTUtvd308zM4OLXsewFJhRMUJCOo4whHiNa7UMCkQjXTsU9ISFkCZS33RUebn8qHR00RtBiMNqw"
